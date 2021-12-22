@@ -14,7 +14,9 @@ const Hero = (props) => (
       <SectionText>
         Computer Science student at VIT Bhopal University.
       </SectionText>
-      <Button>Contact Me</Button>
+      <a href='#contact'>
+        <Button>Contact Me</Button>
+      </a>
     </LeftSection>
   </Section>
 );

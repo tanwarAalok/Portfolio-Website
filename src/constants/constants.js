@@ -71,6 +71,15 @@ export const projects = [
     source: "https://youtu.be/2bgUilXfCBY",
     id: 5,
   },
+  {
+    title: "Coin Collector Game",
+    description: "A coin collector game made in Hackathon organized by TechXR.",
+    image: "/images/8.png",
+    tags: ["Unity"],
+    visit: "https://github.com/tanwarAalok/CoinCollectorGame/tree/main",
+    source: "https://youtu.be/QAG4ntjCnlo",
+    id: 6,
+  },
 ];
 
 export const TimeLineData = [

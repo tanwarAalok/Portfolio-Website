@@ -31,17 +31,17 @@ export const projects = [
     source: "https://weather-app-aalok.netlify.app/",
     id: 2,
   },
-  {
-    title: "Frontend Instagram Clone",
-    description:
-      "Basic Instagram Clone only on Frontend Side displaying stories and posts.",
-    image: "/images/4.jpg",
-    tags: ["React", "Redux", "TypeScript"],
-    visitsource:
-      "https://github.com/tanwarAalok/devsnest-projects/tree/main/Daily%20THA/THA%2035",
-    source: "https://instagram-clone-aalok.netlify.app/",
-    id: 3,
-  },
+  // {
+  //   title: "Frontend Instagram Clone",
+  //   description:
+  //     "Basic Instagram Clone only on Frontend Side displaying stories and posts.",
+  //   image: "/images/4.jpg",
+  //   tags: ["React", "Redux", "TypeScript"],
+  //   visitsource:
+  //     "https://github.com/tanwarAalok/devsnest-projects/tree/main/Daily%20THA/THA%2035",
+  //   source: "https://instagram-clone-aalok.netlify.app/",
+  //   id: 3,
+  // },
   {
     title: "Oxygenator",
     description:
@@ -50,11 +50,32 @@ export const projects = [
     tags: ["Phaser", "JavaScript"],
     visit: "https://github.com/tanwarAalok/Oxygenator",
     source: "https://oxygenator.netlify.app/",
+    id: 3,
+  },
+  {
+    title: "AR_Experiences",
+    description: "A simple AR app made using TechXR SDK.",
+    image: "/images/6.jpg",
+    tags: ["Unity", "Vuforia", "TechXR SDK"],
+    visit: "https://github.com/tanwarAalok/AR_Experience",
+    source: "https://youtu.be/IWU9CAyckGI",
     id: 4,
+  },
+  {
+    title: "VR_FPS_shooting",
+    description:
+      "A VR shooting game where a player can teleport to different position, check highscore, health, current score and destroy enemies.",
+    image: "/images/7.png",
+    tags: ["Unity", "Vuforia", "TechXR SDK"],
+    visit: "https://github.com/tanwarAalok/VR_FPS_shooting",
+    source: "https://youtu.be/2bgUilXfCBY",
+    id: 5,
   },
 ];
 
 export const TimeLineData = [
   { year: 2020, text: 'Started my journey'},
-  { year: 2021, text: 'Learned about Web Developer'},
+  { year: 2021, text: 'Learned about Web Developer' },
+  { year: 2022, text: 'Learning about Game Developer' },
+  
 ];
